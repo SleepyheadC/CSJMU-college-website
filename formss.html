@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+       <title>Forms</title> 
+       <style>
+       body{
+        color:rgb(6, 6, 84);
+       }
+       table{
+            color: aliceblue;
+       }
+       </style>           
+    </head>
+    <body style="background-color: rgb(191, 212, 235);">
+        <center><h1>Registration Form</h1></center>
+        <form action = "backend.php">
+            <label for = "fname">First Name:</label>
+            <br>
+            <div>
+                <input type = "text" name = "first name" id = "fname">
+            </div>
+            <br>
+            <label for = "lname">Last Name:</label>
+            <br>
+            <div>
+                <input type = "text" name = "last name" id = "lname">
+            </div>
+            <br>
+            <label for = "Gender">Gender:</label>
+            <br>
+            <div>
+                Male<input type = "radio" name = "gender" id = "Gender">
+                Female<input type = "radio" name = "gender" id = "Gender">
+                Others<input type = "radio" name = "gender" id = "Gender">
+
+            </div>
+            <br>
+            <label for = "Subjects">Subjects of Interests:</label>
+            
+            <div>
+                <select name = "subjectsOfInterest" id = "Subjects">
+                    <br>
+                    <option value = "mathematics">Mathematics</option>
+                    <option value = "physics">Physics</option>
+                    <option value = "chemistry">Chemistry</option>
+                    <option value = "biology">Biology</option>
+                    <option value = "computer">Computer Science</option>
+
+                </select>
+            </div>
+            <br>
+            <label for = "language">Language Known:</label>
+            <div>
+                <select name = "language known" id = "language">
+                    <br>
+                    <option value = "Hindi">Hindi</option>
+                    <option value = "English">English</option>
+                    <option value = "Tamil">Tamil</option>
+                    <option value = "Telugu">Telugu</option>
+                    <option value = "Kannada">Kannada</option>
+                    
+                </select>
+            </div>
+            <br>
+            <label for = "dob">Date of Birth:</label>
+            <br>
+            <div>
+                <input type = "date" name = "date of birth" id = "dob">
+            </div>
+            <br>
+            <label for = "phone">Contact no:</label>
+            <br>
+            <div>
+                <input type = "number" name = "contact no" id = "phone" placeholder = "+91">
+            </div>
+            <br>
+            <label for = "address">Address:</label>
+            <br>
+            <div>
+               
+                <textarea name = "Address" cols="20" rows = "5"></textarea>
+            </div>
+            <br>
+            <label for = "pincode">Pincode:</label>
+            <br>
+            <div>
+                <input type = "number" name = "Pin" id = "pincode">
+            </div>
+            <br>
+            <label for = "state">State:</label>
+            <br>
+            <div>
+                <input type = "text" name = "State" id = "state">
+            </div>
+            <br>
+            <label for = "country">Country:</label>
+            <br>
+            <div>
+                <input type = "text" name = "Country" id = "country">
+            </div>
+            <br>
+            <div>
+                <input type = "submit" value = "Submit Now">
+                <input type = "Reset" value = "Reset">
+                <input type = "submit" value = "previous">
+            </div>
+            
+            <br>
+            
+        </form>
+    
+    </table>
+
+    </body>
+</html>
